@@ -1,0 +1,47 @@
+
+Function + input + class Template 
+
+Function Template
+__________________________
+
+
+
+
+def Function_name():
+    work
+    return result
+
+Function_name()
+
+
+
+
+Function + input Template
+__________________________
+
+
+def Function_name (a,b):
+    calculation
+    return result
+
+a = float(input("Enter the value"))
+b = float(input("Enter the value"))
+c = float(input("Enter the value"))
+
+print(Function_name(a,b))
+
+
+
+
+class Template
+__________________________
+
+def __init__ (self, data):
+    self.data = data
+
+def method(self):
+    work
+    return result
+
+object = className(value)
+print(obj.method())
